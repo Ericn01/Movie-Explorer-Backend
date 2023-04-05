@@ -23,7 +23,7 @@ app.use(express.urlencoded({extended: false}));
 
 // Enabling the app to use EJS as a view engine
 app.set('view engine', 'ejs');
-app.set('views', 'backend/views');
+app.set('views', './views');
 // Middleware
 app.use(cookieParser('oreos'));
 app.use(
