@@ -20,7 +20,7 @@ router.get('/logout', (req, res) => {
     
 });
 router.get('/movie-explorer', ensureAuthenticated, (req, res) => {
-    res.redirect('http://localhost:5173');
+    res.redirect('http://movie-explorer-frontend.onrender.com');
 });
 
 
